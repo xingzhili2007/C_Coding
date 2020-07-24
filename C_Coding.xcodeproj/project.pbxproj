@@ -2756,6 +2756,7 @@
 		F8919BD8249F21BC00D86D44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7A5XF8KAY5;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -2766,6 +2767,7 @@
 		F8919BD9249F21BC00D86D44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7A5XF8KAY5;
 				ENABLE_HARDENED_RUNTIME = YES;
