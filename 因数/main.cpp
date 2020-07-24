@@ -1,8 +1,8 @@
 //
 //  main.cpp
-//  C_Coding
+//  因数
 //
-//  Created by 李行之 on 2020/3/28.
+//  Created by 李行之 on 2020/7/16.
 //  Copyright © 2020 李行之. All rights reserved.
 //
 
