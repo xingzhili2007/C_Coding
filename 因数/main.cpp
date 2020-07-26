@@ -6,7 +6,7 @@
 //  Copyright © 2020 李行之. All rights reserved.
 //
 
-#include <iostream>
+#include <bits/stdc++.h>
 
 int main(int argc, const char * argv[]) {
     // insert code here...
