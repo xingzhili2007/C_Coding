@@ -35,6 +35,7 @@
 		F89EEA2324C8632E00523BC1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F89EEA2224C8632E00523BC1 /* main.cpp */; };
 		F8A865F724C0AB4200D977D0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8A865F624C0AB4200D977D0 /* main.cpp */; };
 		F8AB93C024CDD4EB007C85DB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8AB93BF24CDD4EB007C85DB /* main.cpp */; };
+		F8AB93CC24D04F61007C85DB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8AB93CB24D04F61007C85DB /* main.cpp */; };
 		F8AD8647242F7A3700580173 /* strlen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8AD8646242F7A3700580173 /* strlen.cpp */; };
 		F8B5801524827E35001DF97C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8B5801424827E35001DF97C /* main.cpp */; };
 		F8B58020248291D1001DF97C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8B5801F248291D1001DF97C /* main.cpp */; };
@@ -327,6 +328,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		F8AB93C724D04F61007C85DB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		F8AD8641242F7A3700580173 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -477,9 +487,11 @@
 		F89EEA2224C8632E00523BC1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F8A865F424C0AB4200D977D0 /* 因数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "因数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8A865F624C0AB4200D977D0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		F8AB93B224CDCFFB007C85DB /* P2279 [HNOI2003]消防局的设立 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "P2279 [HNOI2003]消防局的设立"; path = "/Users/lixingzhi/C_Coding/C_Coding/build/Debug/P2279 [HNOI2003]消防局的设立"; sourceTree = "<absolute>"; };
 		F8AB93BD24CDD4EB007C85DB /* P1273 有线电视网 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "P1273 有线电视网"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8AB93BF24CDD4EB007C85DB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F8AB93C424D04B20007C85DB /* P2279 [HNOI2003]消防局的设立 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "P2279 [HNOI2003]消防局的设立"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8AB93C924D04F61007C85DB /* 素数环 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "素数环"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8AB93CB24D04F61007C85DB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F8AD8646242F7A3700580173 /* strlen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = strlen.cpp; sourceTree = "<group>"; };
 		F8B5801224827E35001DF97C /* big_yz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = big_yz; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B5801424827E35001DF97C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -713,6 +725,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F8AB93BA24CDD4EB007C85DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8AB93C624D04F61007C85DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1016,6 +1035,14 @@
 			path = "P1273 有线电视网";
 			sourceTree = "<group>";
 		};
+		F8AB93CA24D04F61007C85DB /* 素数环 */ = {
+			isa = PBXGroup;
+			children = (
+				F8AB93CB24D04F61007C85DB /* main.cpp */,
+			);
+			path = "素数环";
+			sourceTree = "<group>";
+		};
 		F8AD863A242F7A3700580173 = {
 			isa = PBXGroup;
 			children = (
@@ -1097,6 +1124,9 @@
 				F848D59324CB2BB00023BD67 /* P3370 【模板】字符串哈希 */,
 				F8AB93BD24CDD4EB007C85DB /* P1273 有线电视网 */,
 				F8AB93BE24CDD4EB007C85DB /* P1273 有线电视网 */,
+				F8AB93C424D04B20007C85DB /* P2279 [HNOI2003]消防局的设立 */,
+				F8AB93C924D04F61007C85DB /* 素数环 */,
+				F8AB93CA24D04F61007C85DB /* 素数环 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1690,7 +1720,7 @@
 			);
 			name = "P2279 [HNOI2003]消防局的设立";
 			productName = "P2279 [HNOI2003]消防局的设立";
-			productReference = F8AB93B224CDCFFB007C85DB /* P2279 [HNOI2003]消防局的设立 */;
+			productReference = F8AB93C424D04B20007C85DB /* P2279 [HNOI2003]消防局的设立 */;
 			productType = "com.apple.product-type.tool";
 		};
 		F8AB93BC24CDD4EB007C85DB /* P1273 有线电视网 */ = {
@@ -1708,6 +1738,23 @@
 			name = "P1273 有线电视网";
 			productName = "P1273 有线电视网";
 			productReference = F8AB93BD24CDD4EB007C85DB /* P1273 有线电视网 */;
+			productType = "com.apple.product-type.tool";
+		};
+		F8AB93C824D04F61007C85DB /* 素数环 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8AB93CF24D04F61007C85DB /* Build configuration list for PBXNativeTarget "素数环" */;
+			buildPhases = (
+				F8AB93C524D04F61007C85DB /* Sources */,
+				F8AB93C624D04F61007C85DB /* Frameworks */,
+				F8AB93C724D04F61007C85DB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "素数环";
+			productName = "素数环";
+			productReference = F8AB93C924D04F61007C85DB /* 素数环 */;
 			productType = "com.apple.product-type.tool";
 		};
 		F8AD8642242F7A3700580173 /* C_Coding */ = {
@@ -1983,6 +2030,9 @@
 					F8AB93BC24CDD4EB007C85DB = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					F8AB93C824D04F61007C85DB = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					F8AD8642242F7A3700580173 = {
 						CreatedOnToolsVersion = 11.4;
 					};
@@ -2069,6 +2119,7 @@
 				F848D59124CB2BB00023BD67 /* P3370 【模板】字符串哈希 */,
 				F8AB93B124CDCFFB007C85DB /* P2279 [HNOI2003]消防局的设立 */,
 				F8AB93BC24CDD4EB007C85DB /* P1273 有线电视网 */,
+				F8AB93C824D04F61007C85DB /* 素数环 */,
 			);
 		};
 /* End PBXProject section */
@@ -2316,6 +2367,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8AB93C024CDD4EB007C85DB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8AB93C524D04F61007C85DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8AB93CC24D04F61007C85DB /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3052,6 +3111,30 @@
 			};
 			name = Release;
 		};
+		F8AB93CD24D04F61007C85DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A5XF8KAY5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8AB93CE24D04F61007C85DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A5XF8KAY5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		F8AD8648242F7A3700580173 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3637,6 +3720,15 @@
 			buildConfigurations = (
 				F8AB93C224CDD4EB007C85DB /* Debug */,
 				F8AB93C324CDD4EB007C85DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8AB93CF24D04F61007C85DB /* Build configuration list for PBXNativeTarget "素数环" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8AB93CD24D04F61007C85DB /* Debug */,
+				F8AB93CE24D04F61007C85DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
