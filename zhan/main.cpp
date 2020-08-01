@@ -8,66 +8,26 @@
 
 #include <bits/stdc++.h>
 using namespace std;
-//stack <int> s;
+int S[10005];
 
-/*
-int main(int argc, const char * argv[]) {
-    int t;
-    for (int i=1;i<=3;i++)
-    {
-        cin>>t;
-        s.push(t);
-    }
-    for (int i=1;i<=3;i++)
-    {
-        int a=s.top();
-        cout<<a<<" ";
-        s.pop();
-    }
-
-    
-    return 0;
-}
-*/
-struct MyStack{
-    int data[10010];
-    int top;
-};
-void push(MyStack S,int data)
+int top=-1;
+void push1(int n)
 {
-    S.data[S.top++]=data;
+    S[++top]=n;
 }
-int pop(MyStack S)
+int pop1()
 {
-//    int t=S.data[S.--top];
-    return S.data[--S.top];
+    return S[top--];
 }
-
-//void Reset(MyStack &S)
-//{
-//    S.top=0;
-//    for (int i=1;i<10000;i++)
-//    {
-//        S.data[i]=0;
-//    }
-//}
-int main(int argc, const char * argv[])
+int main()
 {
-    MyStack S;
-//    Reset(S);
-    S.top=0;
-    int t;
-    for (int i=1;i<=3;i++)
+    memset(S,0,sizeof(S));
+    int a;
+    for(int i=1;i<=4;i++)
     {
-        cin>>t;
-        push(S,t);
-        cout<<pop(S)<<" ";
+        cin>>a;
+        push1(a);
     }
-//    for (int i=1;i<=3;i++)
-//    {
-//        //int a=top(S);
-//
-//
-//    }
-    return 0;
+    for(int i=1;i<=4;i++)
+        cout<<pop1()<<endl;
 }
