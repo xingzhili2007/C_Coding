@@ -11,10 +11,7 @@ using namespace std;
 
 
 int main() {
-    char a[10]="11111";
-    char b[10]="22222";
-    swap (a,b);
-    cout<<a<<b;
+    cout<<char('('+2);
 
     
     return 0;
