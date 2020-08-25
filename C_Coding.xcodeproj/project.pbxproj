@@ -22,6 +22,7 @@
 		F85D09C12470072C00A55F88 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F85D09C02470072C00A55F88 /* main.cpp */; };
 		F85D09CC247015CC00A55F88 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F85D09CB247015CC00A55F88 /* main.cpp */; };
 		F8682FEC249BA4C7000FA690 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8682FEB249BA4C7000FA690 /* main.cpp */; };
+		F869730D24E1736B009D0702 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F869730C24E1736B009D0702 /* main.cpp */; };
 		F877EC3E2438AB9100E5CEF6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F877EC3D2438AB9100E5CEF6 /* main.cpp */; };
 		F877EC492438B00800E5CEF6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F877EC482438B00800E5CEF6 /* main.cpp */; };
 		F8781810248C87D800450BD9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F878180F248C87D800450BD9 /* main.cpp */; };
@@ -57,6 +58,8 @@
 		F8D572F324D6F6DF003088A3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8D572F224D6F6DF003088A3 /* main.cpp */; };
 		F8D572FE24D706E9003088A3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8D572FD24D706E9003088A3 /* main.cpp */; };
 		F8E0A74E247C20D500B4A90A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E0A74D247C20D500B4A90A /* main.cpp */; };
+		F8EFF7DB24E1113A003AB9BA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8EFF7DA24E1113A003AB9BA /* main.cpp */; };
+		F8EFF7E624E11756003AB9BA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8EFF7E524E11756003AB9BA /* main.cpp */; };
 		F8F0B68E2461676E00338722 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8F0B68D2461676E00338722 /* main.cpp */; };
 		F8F0B69924619D6E00338722 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8F0B69824619D6E00338722 /* main.cpp */; };
 		F8F201BA245DA18F0048948B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8F201B9245DA18F0048948B /* main.cpp */; };
@@ -203,6 +206,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		F8682FE7249BA4C7000FA690 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F869730824E1736B009D0702 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -544,6 +556,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		F8EFF7D624E1113A003AB9BA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F8EFF7E124E11756003AB9BA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		F8F0B6892461676E00338722 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -642,6 +672,8 @@
 		F85D09CB247015CC00A55F88 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F8682FE9249BA4C7000FA690 /* chat */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = chat; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8682FEB249BA4C7000FA690 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F869730A24E1736B009D0702 /* area-bfs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "area-bfs"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F869730C24E1736B009D0702 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F877EC3B2438AB9100E5CEF6 /* hwzc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hwzc; sourceTree = BUILT_PRODUCTS_DIR; };
 		F877EC3D2438AB9100E5CEF6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F877EC462438B00800E5CEF6 /* ZifuRing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZifuRing; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -716,6 +748,10 @@
 		F8E0A746247C207300B4A90A /* open */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = open; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E0A74B247C20D500B4A90A /* game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = game; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E0A74D247C20D500B4A90A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F8EFF7D824E1113A003AB9BA /* P1048 采药 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "P1048 采药"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8EFF7DA24E1113A003AB9BA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F8EFF7E324E11756003AB9BA /* P1757 通天之分组背包 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "P1757 通天之分组背包"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8EFF7E524E11756003AB9BA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F8F0B68B2461676E00338722 /* Luogu_P4047 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Luogu_P4047; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F0B68D2461676E00338722 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F8F0B69624619D6E00338722 /* Luogu_P1265 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Luogu_P1265; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -837,6 +873,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F8682FE6249BA4C7000FA690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F869730724E1736B009D0702 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1102,6 +1145,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8EFF7D524E1113A003AB9BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8EFF7E024E11756003AB9BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8F0B6882461676E00338722 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1272,6 +1329,14 @@
 				F8682FEB249BA4C7000FA690 /* main.cpp */,
 			);
 			path = chat;
+			sourceTree = "<group>";
+		};
+		F869730B24E1736B009D0702 /* area-bfs */ = {
+			isa = PBXGroup;
+			children = (
+				F869730C24E1736B009D0702 /* main.cpp */,
+			);
+			path = "area-bfs";
 			sourceTree = "<group>";
 		};
 		F877EC3C2438AB9100E5CEF6 /* hwzc */ = {
@@ -1570,6 +1635,12 @@
 				F8458B6B24DCFBDB004EEA68 /* 八皇后问题 */,
 				F8458B7524DCFC3B004EEA68 /* 城市连通 */,
 				F8458B7624DCFC3B004EEA68 /* 城市连通 */,
+				F8EFF7D824E1113A003AB9BA /* P1048 采药 */,
+				F8EFF7D924E1113A003AB9BA /* P1048 采药 */,
+				F8EFF7E324E11756003AB9BA /* P1757 通天之分组背包 */,
+				F8EFF7E424E11756003AB9BA /* P1757 通天之分组背包 */,
+				F869730A24E1736B009D0702 /* area-bfs */,
+				F869730B24E1736B009D0702 /* area-bfs */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1676,6 +1747,22 @@
 				F8E0A74D247C20D500B4A90A /* main.cpp */,
 			);
 			path = game;
+			sourceTree = "<group>";
+		};
+		F8EFF7D924E1113A003AB9BA /* P1048 采药 */ = {
+			isa = PBXGroup;
+			children = (
+				F8EFF7DA24E1113A003AB9BA /* main.cpp */,
+			);
+			path = "P1048 采药";
+			sourceTree = "<group>";
+		};
+		F8EFF7E424E11756003AB9BA /* P1757 通天之分组背包 */ = {
+			isa = PBXGroup;
+			children = (
+				F8EFF7E524E11756003AB9BA /* main.cpp */,
+			);
+			path = "P1757 通天之分组背包";
 			sourceTree = "<group>";
 		};
 		F8F0B68C2461676E00338722 /* Luogu_P4047 */ = {
@@ -2007,6 +2094,23 @@
 			name = chat;
 			productName = chat;
 			productReference = F8682FE9249BA4C7000FA690 /* chat */;
+			productType = "com.apple.product-type.tool";
+		};
+		F869730924E1736B009D0702 /* area-bfs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F869731024E1736B009D0702 /* Build configuration list for PBXNativeTarget "area-bfs" */;
+			buildPhases = (
+				F869730624E1736B009D0702 /* Sources */,
+				F869730724E1736B009D0702 /* Frameworks */,
+				F869730824E1736B009D0702 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "area-bfs";
+			productName = "area-bfs";
+			productReference = F869730A24E1736B009D0702 /* area-bfs */;
 			productType = "com.apple.product-type.tool";
 		};
 		F877EC3A2438AB9100E5CEF6 /* hwzc */ = {
@@ -2638,6 +2742,40 @@
 			productReference = F8E0A74B247C20D500B4A90A /* game */;
 			productType = "com.apple.product-type.tool";
 		};
+		F8EFF7D724E1113A003AB9BA /* P1048 采药 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8EFF7DE24E1113A003AB9BA /* Build configuration list for PBXNativeTarget "P1048 采药" */;
+			buildPhases = (
+				F8EFF7D424E1113A003AB9BA /* Sources */,
+				F8EFF7D524E1113A003AB9BA /* Frameworks */,
+				F8EFF7D624E1113A003AB9BA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "P1048 采药";
+			productName = "P1048 采药";
+			productReference = F8EFF7D824E1113A003AB9BA /* P1048 采药 */;
+			productType = "com.apple.product-type.tool";
+		};
+		F8EFF7E224E11756003AB9BA /* P1757 通天之分组背包 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8EFF7E724E11756003AB9BA /* Build configuration list for PBXNativeTarget "P1757 通天之分组背包" */;
+			buildPhases = (
+				F8EFF7DF24E11756003AB9BA /* Sources */,
+				F8EFF7E024E11756003AB9BA /* Frameworks */,
+				F8EFF7E124E11756003AB9BA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "P1757 通天之分组背包";
+			productName = "P1757 通天之分组背包";
+			productReference = F8EFF7E324E11756003AB9BA /* P1757 通天之分组背包 */;
+			productType = "com.apple.product-type.tool";
+		};
 		F8F0B68A2461676E00338722 /* Luogu_P4047 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8F0B6912461676E00338722 /* Build configuration list for PBXNativeTarget "Luogu_P4047" */;
@@ -2815,6 +2953,9 @@
 					F8682FE8249BA4C7000FA690 = {
 						CreatedOnToolsVersion = 11.5;
 					};
+					F869730924E1736B009D0702 = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					F877EC3A2438AB9100E5CEF6 = {
 						CreatedOnToolsVersion = 11.4;
 					};
@@ -2926,6 +3067,12 @@
 					F8E0A74A247C20D500B4A90A = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
+					F8EFF7D724E1113A003AB9BA = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					F8EFF7E224E11756003AB9BA = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					F8F0B68A2461676E00338722 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
@@ -3022,6 +3169,9 @@
 				F8458B5E24DCF448004EEA68 /* P1644-跳马问题 */,
 				F8458B6924DCFBDB004EEA68 /* 八皇后问题 */,
 				F8458B7424DCFC3B004EEA68 /* 城市连通 */,
+				F8EFF7D724E1113A003AB9BA /* P1048 采药 */,
+				F8EFF7E224E11756003AB9BA /* P1757 通天之分组背包 */,
+				F869730924E1736B009D0702 /* area-bfs */,
 			);
 		};
 /* End PBXProject section */
@@ -3151,6 +3301,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8682FEC249BA4C7000FA690 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F869730624E1736B009D0702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F869730D24E1736B009D0702 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3445,6 +3603,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8E0A74E247C20D500B4A90A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8EFF7D424E1113A003AB9BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8EFF7DB24E1113A003AB9BA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8EFF7DF24E11756003AB9BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8EFF7E624E11756003AB9BA /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3863,6 +4037,30 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7A5XF8KAY5;
 				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F869730E24E1736B009D0702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A5XF8KAY5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F869730F24E1736B009D0702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A5XF8KAY5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -4766,6 +4964,54 @@
 			};
 			name = Release;
 		};
+		F8EFF7DC24E1113A003AB9BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A5XF8KAY5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8EFF7DD24E1113A003AB9BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A5XF8KAY5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8EFF7E824E11756003AB9BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A5XF8KAY5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8EFF7E924E11756003AB9BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A5XF8KAY5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		F8F0B68F2461676E00338722 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -5063,6 +5309,15 @@
 			buildConfigurations = (
 				F8682FED249BA4C7000FA690 /* Debug */,
 				F8682FEE249BA4C7000FA690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F869731024E1736B009D0702 /* Build configuration list for PBXNativeTarget "area-bfs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F869730E24E1736B009D0702 /* Debug */,
+				F869730F24E1736B009D0702 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5405,6 +5660,24 @@
 			buildConfigurations = (
 				F8E0A74F247C20D500B4A90A /* Debug */,
 				F8E0A750247C20D500B4A90A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8EFF7DE24E1113A003AB9BA /* Build configuration list for PBXNativeTarget "P1048 采药" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8EFF7DC24E1113A003AB9BA /* Debug */,
+				F8EFF7DD24E1113A003AB9BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8EFF7E724E11756003AB9BA /* Build configuration list for PBXNativeTarget "P1757 通天之分组背包" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8EFF7E824E11756003AB9BA /* Debug */,
+				F8EFF7E924E11756003AB9BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
