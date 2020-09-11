@@ -58,6 +58,10 @@
 		F8D572F324D6F6DF003088A3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8D572F224D6F6DF003088A3 /* main.cpp */; };
 		F8D572FE24D706E9003088A3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8D572FD24D706E9003088A3 /* main.cpp */; };
 		F8E0A74E247C20D500B4A90A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E0A74D247C20D500B4A90A /* main.cpp */; };
+		F8E6BD1D2504C1EE004C4847 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E6BD1C2504C1EE004C4847 /* main.cpp */; };
+		F8E6BD282504C6AB004C4847 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E6BD272504C6AB004C4847 /* main.cpp */; };
+		F8E6BD332504CD5C004C4847 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E6BD322504CD5C004C4847 /* main.cpp */; };
+		F8E6BD3E2504D530004C4847 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E6BD3D2504D530004C4847 /* main.cpp */; };
 		F8EFF7DB24E1113A003AB9BA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8EFF7DA24E1113A003AB9BA /* main.cpp */; };
 		F8EFF7E624E11756003AB9BA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8EFF7E524E11756003AB9BA /* main.cpp */; };
 		F8F0B68E2461676E00338722 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8F0B68D2461676E00338722 /* main.cpp */; };
@@ -556,6 +560,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		F8E6BD182504C1EE004C4847 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F8E6BD232504C6AB004C4847 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F8E6BD2E2504CD5C004C4847 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F8E6BD392504D530004C4847 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		F8EFF7D624E1113A003AB9BA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -748,6 +788,14 @@
 		F8E0A746247C207300B4A90A /* open */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = open; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E0A74B247C20D500B4A90A /* game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = game; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E0A74D247C20D500B4A90A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F8E6BD1A2504C1EE004C4847 /* T146761 海涛打比赛 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "T146761 海涛打比赛"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E6BD1C2504C1EE004C4847 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F8E6BD252504C6AB004C4847 /* T146764 林达的神秘字符串 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "T146764 林达的神秘字符串"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E6BD272504C6AB004C4847 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F8E6BD302504CD5C004C4847 /* T146766 榆翔领兵作战 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "T146766 榆翔领兵作战"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E6BD322504CD5C004C4847 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F8E6BD3B2504D530004C4847 /* T146767 芩仟玩游戏 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "T146767 芩仟玩游戏"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E6BD3D2504D530004C4847 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F8EFF7D824E1113A003AB9BA /* P1048 采药 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "P1048 采药"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8EFF7DA24E1113A003AB9BA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F8EFF7E324E11756003AB9BA /* P1757 通天之分组背包 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "P1757 通天之分组背包"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1139,6 +1187,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F8E0A748247C20D500B4A90A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E6BD172504C1EE004C4847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E6BD222504C6AB004C4847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E6BD2D2504CD5C004C4847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E6BD382504D530004C4847 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1641,6 +1717,14 @@
 				F8EFF7E424E11756003AB9BA /* P1757 通天之分组背包 */,
 				F869730A24E1736B009D0702 /* area-bfs */,
 				F869730B24E1736B009D0702 /* area-bfs */,
+				F8E6BD1A2504C1EE004C4847 /* T146761 海涛打比赛 */,
+				F8E6BD1B2504C1EE004C4847 /* T146761 海涛打比赛 */,
+				F8E6BD252504C6AB004C4847 /* T146764 林达的神秘字符串 */,
+				F8E6BD262504C6AB004C4847 /* T146764 林达的神秘字符串 */,
+				F8E6BD302504CD5C004C4847 /* T146766 榆翔领兵作战 */,
+				F8E6BD312504CD5C004C4847 /* T146766 榆翔领兵作战 */,
+				F8E6BD3B2504D530004C4847 /* T146767 芩仟玩游戏 */,
+				F8E6BD3C2504D530004C4847 /* T146767 芩仟玩游戏 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1747,6 +1831,38 @@
 				F8E0A74D247C20D500B4A90A /* main.cpp */,
 			);
 			path = game;
+			sourceTree = "<group>";
+		};
+		F8E6BD1B2504C1EE004C4847 /* T146761 海涛打比赛 */ = {
+			isa = PBXGroup;
+			children = (
+				F8E6BD1C2504C1EE004C4847 /* main.cpp */,
+			);
+			path = "T146761 海涛打比赛";
+			sourceTree = "<group>";
+		};
+		F8E6BD262504C6AB004C4847 /* T146764 林达的神秘字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				F8E6BD272504C6AB004C4847 /* main.cpp */,
+			);
+			path = "T146764 林达的神秘字符串";
+			sourceTree = "<group>";
+		};
+		F8E6BD312504CD5C004C4847 /* T146766 榆翔领兵作战 */ = {
+			isa = PBXGroup;
+			children = (
+				F8E6BD322504CD5C004C4847 /* main.cpp */,
+			);
+			path = "T146766 榆翔领兵作战";
+			sourceTree = "<group>";
+		};
+		F8E6BD3C2504D530004C4847 /* T146767 芩仟玩游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				F8E6BD3D2504D530004C4847 /* main.cpp */,
+			);
+			path = "T146767 芩仟玩游戏";
 			sourceTree = "<group>";
 		};
 		F8EFF7D924E1113A003AB9BA /* P1048 采药 */ = {
@@ -2742,6 +2858,74 @@
 			productReference = F8E0A74B247C20D500B4A90A /* game */;
 			productType = "com.apple.product-type.tool";
 		};
+		F8E6BD192504C1EE004C4847 /* T146761 海涛打比赛 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8E6BD202504C1EE004C4847 /* Build configuration list for PBXNativeTarget "T146761 海涛打比赛" */;
+			buildPhases = (
+				F8E6BD162504C1EE004C4847 /* Sources */,
+				F8E6BD172504C1EE004C4847 /* Frameworks */,
+				F8E6BD182504C1EE004C4847 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "T146761 海涛打比赛";
+			productName = "T146761 海涛打比赛";
+			productReference = F8E6BD1A2504C1EE004C4847 /* T146761 海涛打比赛 */;
+			productType = "com.apple.product-type.tool";
+		};
+		F8E6BD242504C6AB004C4847 /* T146764 林达的神秘字符串 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8E6BD292504C6AB004C4847 /* Build configuration list for PBXNativeTarget "T146764 林达的神秘字符串" */;
+			buildPhases = (
+				F8E6BD212504C6AB004C4847 /* Sources */,
+				F8E6BD222504C6AB004C4847 /* Frameworks */,
+				F8E6BD232504C6AB004C4847 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "T146764 林达的神秘字符串";
+			productName = "T146764 林达的神秘字符串";
+			productReference = F8E6BD252504C6AB004C4847 /* T146764 林达的神秘字符串 */;
+			productType = "com.apple.product-type.tool";
+		};
+		F8E6BD2F2504CD5C004C4847 /* T146766 榆翔领兵作战 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8E6BD342504CD5C004C4847 /* Build configuration list for PBXNativeTarget "T146766 榆翔领兵作战" */;
+			buildPhases = (
+				F8E6BD2C2504CD5C004C4847 /* Sources */,
+				F8E6BD2D2504CD5C004C4847 /* Frameworks */,
+				F8E6BD2E2504CD5C004C4847 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "T146766 榆翔领兵作战";
+			productName = "T146766 榆翔领兵作战";
+			productReference = F8E6BD302504CD5C004C4847 /* T146766 榆翔领兵作战 */;
+			productType = "com.apple.product-type.tool";
+		};
+		F8E6BD3A2504D530004C4847 /* T146767 芩仟玩游戏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8E6BD3F2504D530004C4847 /* Build configuration list for PBXNativeTarget "T146767 芩仟玩游戏" */;
+			buildPhases = (
+				F8E6BD372504D530004C4847 /* Sources */,
+				F8E6BD382504D530004C4847 /* Frameworks */,
+				F8E6BD392504D530004C4847 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "T146767 芩仟玩游戏";
+			productName = "T146767 芩仟玩游戏";
+			productReference = F8E6BD3B2504D530004C4847 /* T146767 芩仟玩游戏 */;
+			productType = "com.apple.product-type.tool";
+		};
 		F8EFF7D724E1113A003AB9BA /* P1048 采药 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8EFF7DE24E1113A003AB9BA /* Build configuration list for PBXNativeTarget "P1048 采药" */;
@@ -3067,6 +3251,18 @@
 					F8E0A74A247C20D500B4A90A = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
+					F8E6BD192504C1EE004C4847 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					F8E6BD242504C6AB004C4847 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					F8E6BD2F2504CD5C004C4847 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					F8E6BD3A2504D530004C4847 = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					F8EFF7D724E1113A003AB9BA = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -3172,6 +3368,10 @@
 				F8EFF7D724E1113A003AB9BA /* P1048 采药 */,
 				F8EFF7E224E11756003AB9BA /* P1757 通天之分组背包 */,
 				F869730924E1736B009D0702 /* area-bfs */,
+				F8E6BD192504C1EE004C4847 /* T146761 海涛打比赛 */,
+				F8E6BD242504C6AB004C4847 /* T146764 林达的神秘字符串 */,
+				F8E6BD2F2504CD5C004C4847 /* T146766 榆翔领兵作战 */,
+				F8E6BD3A2504D530004C4847 /* T146767 芩仟玩游戏 */,
 			);
 		};
 /* End PBXProject section */
@@ -3603,6 +3803,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8E0A74E247C20D500B4A90A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E6BD162504C1EE004C4847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E6BD1D2504C1EE004C4847 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E6BD212504C6AB004C4847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E6BD282504C6AB004C4847 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E6BD2C2504CD5C004C4847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E6BD332504CD5C004C4847 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E6BD372504D530004C4847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E6BD3E2504D530004C4847 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4964,6 +5196,102 @@
 			};
 			name = Release;
 		};
+		F8E6BD1E2504C1EE004C4847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A5XF8KAY5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8E6BD1F2504C1EE004C4847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A5XF8KAY5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8E6BD2A2504C6AB004C4847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A5XF8KAY5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8E6BD2B2504C6AB004C4847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A5XF8KAY5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8E6BD352504CD5C004C4847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A5XF8KAY5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8E6BD362504CD5C004C4847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A5XF8KAY5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8E6BD402504D530004C4847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A5XF8KAY5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8E6BD412504D530004C4847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A5XF8KAY5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		F8EFF7DC24E1113A003AB9BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -5660,6 +5988,42 @@
 			buildConfigurations = (
 				F8E0A74F247C20D500B4A90A /* Debug */,
 				F8E0A750247C20D500B4A90A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8E6BD202504C1EE004C4847 /* Build configuration list for PBXNativeTarget "T146761 海涛打比赛" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8E6BD1E2504C1EE004C4847 /* Debug */,
+				F8E6BD1F2504C1EE004C4847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8E6BD292504C6AB004C4847 /* Build configuration list for PBXNativeTarget "T146764 林达的神秘字符串" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8E6BD2A2504C6AB004C4847 /* Debug */,
+				F8E6BD2B2504C6AB004C4847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8E6BD342504CD5C004C4847 /* Build configuration list for PBXNativeTarget "T146766 榆翔领兵作战" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8E6BD352504CD5C004C4847 /* Debug */,
+				F8E6BD362504CD5C004C4847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8E6BD3F2504D530004C4847 /* Build configuration list for PBXNativeTarget "T146767 芩仟玩游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8E6BD402504D530004C4847 /* Debug */,
+				F8E6BD412504D530004C4847 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
