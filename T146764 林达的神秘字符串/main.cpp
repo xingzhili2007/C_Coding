@@ -10,37 +10,13 @@
 using namespace std;
 char s[1005];
 int n;
-int ys[10005];
-inline int YS(int num)
-{
-    int cnt=0;
-    int Sqrt=sqrt(num);
-    for(int i=1;i<Sqrt;i++)
-        if(num%i==0)
-        {
-            ys[++cnt]=i;
-            ys[++cnt]=num/i;
-        }
-    
-    if(num%Sqrt==0)
-        ys[++cnt]=Sqrt;
-    sort(ys+1,ys+cnt+1);
-    return cnt;
-}
-inline void rev(int n)
-{
-    
-    for(int head=1,tail=n;head<=tail;head++,tail--)
-        swap(s[head],s[tail]);
-}
 int main(int argc, const char * argv[]) {
     scanf("%d",&n);
     scanf("%s",s+1);
-    int ysn=YS(n);
-    for(int i=1;i<=ysn;i++)
-        rev(ys[i]);
-        
-    for(int i=1;i<=n;i++) cout<<s[i];
-    cout<<endl;
-    return 0;
+    for(int i=1;i<=n;i++)
+    {
+        if(n%i==0)
+            reverse(s+1, s+i+1);
+    }
+    printf("%s\n",s+1);
 }
