@@ -1,11 +1,11 @@
 #include <cstdio>
 
 char ANS[][50] = {
-    "g[1][i+1]",
-    "n-1",
-    "elist[k].weight > elist[m].weight",
-    "j=w",
-    "v=1"
+    "",
+    "序号2答案",
+    "序号3答案",
+    "b[i] = x",
+    "序号5答案"
 };
 
 int main(){
