@@ -1,16 +1,14 @@
 //
 //  main.cpp
-//  Test2
+//  C_
 //
-//  Created by 李行之 on 2020/10/8.
-//  Copyright © 2020 李行之. All rights reserved.
+//  Created by 李行之 on 2021/3/6.
 //
 
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    
     std::cout << "Hello, World!\n";
     return 0;
 }
